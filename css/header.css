@@ -1,0 +1,88 @@
+.header {
+    background-color: #b1b1b1;
+    display: flex;
+    flex-wrap: wrap; /*перенос строки */
+    justify-content: space-between; /*прижимает содержимое к краям */
+    align-items: center; /*выравнивает элементы по центру на вертикальной */
+}
+
+.header .logo {
+    padding-left: 12%;
+}
+
+.header .menu ul {
+    text-align: center;
+    display: flex;
+    list-style: none;
+}
+
+.header .menu ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.logoimg {
+    height: 50px;
+}
+
+.btn {
+    background-color: #b1b1b1;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.enter {
+    padding-right: 12%;
+}
+
+.btn_enter {
+    padding: 10px 40px;
+    background: #ffa011;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 5px 5px rgb(85, 85, 85);
+}
+.btn_enter:hover {
+    background: #fcc676;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 810px) {
+    .header .logo {
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .header .menu ul {
+        align-self: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .header .menu ul li {
+        margin: 0px;
+    }
+    .btn {
+        width: 300px;
+    }
+    .enter {
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bigpic.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/heroes.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img class="logoimg" src="Pic/logo.png" alt=""></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#news"><button class="btn">Новости</button></a></li>
+                <li><a href="#heroes"><button class="btn">Герои</button></a></li>
+                <li><a href="#cards"><button class="btn">Карты</button></a></li>
+                <li><a href="#media"><button class="btn">Сообщества</button></a></li>
+            </ul>
+        </nav>
+        <div class="enter">
+            <button class="btn_enter" onclick="window.location.href = 'https://account.battle.net/';">ВХОД</button>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="play">
+            <img class="logomain" src="Pic/logo.png" alt="">
+            <button class="btn_play"
+                onclick="window.location.href = 'https://playoverwatch.com/ru-ru/';">ИГРАТЬ</button>
+        </div>
+    </div>
+
+    <div style="background-color: #b1b1b1;">
+        <H1 style="padding-top: 25px; padding-left: 12%;" id="news">Новости</H1>
+        <div class="news">
+            <div class="section">
+                <a href="news1.html">
+                    <img class="newsimg" src="pic/News2.png" alt="">
+                </a>
+                <h3 style="padding: 10px;">Обновление баланса</h3>
+            </div>
+            <div class="section">
+                <a href="news2.html">
+                    <img class="newsimg" src="pic/News1.png" alt="">
+                </a>
+                <h3 style="padding: 10px;">Новая карта</h3>
+            </div>
+
+            <div class="section">
+                <a href="">
+                    <img class="newsimg" src="pic/News3.png" alt="">
+                </a>
+                <h3 style="padding: 10px;">Новый облик</h3>
+            </div>
+        </div>
+    </div>
+
+    <H1 style="padding-top: 25px; padding-left: 12%;" id="heroes">Уникальные герои</H1>
+    <div class="heroes">
+        <a href="Dva.html"><img class="hero" src="pic/D.Va.png" alt=""></a>
+        <a href="Mercy.html"><img class="hero" src="pic/Ангел.png" alt=""></a>
+        <a href="Reaper.html"><img class="hero" src="pic/Жнец.png" alt=""></a>
+        <img class="hero" src="pic/Заря.png" alt="">
+        <img class="hero" src="pic/Кэссиди.png" alt="">
+        <img class="hero" src="pic/Лусио.png" alt="">
+        <img class="hero" src="pic/Роковая_вдова.png" alt="">
+        <img class="hero" src="pic/Трейсер.png" alt="">
+        <img class="hero" src="pic/Уинстон.png" alt="">
+        <img class="hero" src="pic/Фарра.png" alt="">
+    </div>
+
+    <H1 style="padding-top: 25px; padding-left: 12%;" id="cards">Великолепные карты</H1>
+
+    <div class="gallery">
+
+        <a class="prev" onclick="plusSlides(-1)"><img class="arrows" src="Pic/arrowL.png" alt=""></a>
+
+        <div class="cards">
+            <div class="mySlides fade">
+                <img class="cardimg" src="pic/Голливуд.jpg" alt="">
+                <div class="description">
+                    <h2 style="padding-bottom: 20px;">Голливуд</h2>
+                    <p class="text">Гибридная карта, сочетающая в себе режимы Захват точек и Сопровождение. Внимание
+                        обоих
+                        команд сосредоточено на лимузине известного режиссера по имени HALFRED Glitchbot: атакующая
+                        команда
+                        должна сначала встретить его машину в точке А, а затем сопроводить её в точку В, в то время как
+                        обороняющаяся команда должна ей помешать.</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img class="cardimg" src="pic/Кингс_Роу.jpg" alt="">
+                <div class="description">
+                    <h2 style="padding-bottom: 20px;">Кингс Роу</h2>
+                    <p class="text">гибридная карта, сочетающая в себе режимы Захват точек и Сопровождение. Атакующая
+                        команда должна захватить машину с устройством ЭМИ и сопроводить её к центру завода в конце
+                        карты, а обороняющаяся команда должна ей помешать.</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img class="cardimg" src="pic/Нумбани.jpg" alt="">
+                <div class="description">
+                    <h2 style="padding-bottom: 20px;">Нумбани</h2>
+                    <p class="text">Гибридная карта, сочетающая в себе режимы Захват точек и Сопровождение. Внимание
+                        обоих команд сосредоточено на грузе, который необходимо доставить в Национальный музей.
+                        Атакующая команда должна сначала захватить груз на точке А, а затем сопроводить её в точку В, в
+                        то время как обороняющаяся команда должна ей помешать</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="next" onclick="plusSlides(1)"><img class="arrows" src="Pic/arrowR.png" alt=""></a>
+
+    </div>
+
+    <script src="Scripts/script.js"></script>
+
+
+    <footer>
+        <div class="footer-content">
+            <h2 id="media">Наши социальные сети</h2>
+            <p></p>
+            <div class="socials">
+                <a href="https://vk.com/overwatchru"><img class="socialsimg" src="pic/VK.svg" alt=""></a>
+                <a href="https://www.facebook.com/PlayOverwatch"><img class="socialsimg" src="pic/Facebook.svg"
+                        alt=""></a>
+                <a href="https://www.youtube.com/c/playoverwatch"><img class="socialsimg" src="pic/YouTube.svg"
+                        alt=""></a>
+                <a href="https://twitter.com/PlayOverwatch"><img class="socialsimg" src="pic/Twitter.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Underwatch</a> </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="#news">Новости</a></li>
+                    <li><a href="#heroes">Герои</a></li>
+                    <li><a href="#cards">Карты</a></li>
+                    <li><a href="#media">Сообщества</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

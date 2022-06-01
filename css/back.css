@@ -1,0 +1,18 @@
+.back {
+    padding: 10px 40px;
+    background: #ffa011;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 5px 5px rgb(85, 85, 85);
+    position: fixed;
+    top: 20px;
+    right: 5%;
+    text-decoration: none;
+}
+.back:hover {
+    background: #fcc676;
+    box-shadow: none;
+}

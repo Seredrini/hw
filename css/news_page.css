@@ -1,0 +1,32 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+}
+
+.title{
+    background-color: #b1b1b1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.newsimg{
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgb(85, 85, 85);
+}
+
+.post_text {
+    background-color: rgb(210, 210, 210);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: justify;
+    font-weight: lighter;
+    box-shadow: 3px 5px 5px rgb(85, 85, 85);
+    width: 70%;
+    margin-bottom: 30px;
+}
+

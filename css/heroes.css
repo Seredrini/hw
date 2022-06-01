@@ -1,0 +1,21 @@
+.heroes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hero {
+    width: 75px;
+    margin: 20px;
+    border: solid;
+    border-color: gray;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgb(85, 85, 85);
+}
+
+.hero:hover {
+    filter: brightness(1.3);
+    box-shadow: none;
+}
